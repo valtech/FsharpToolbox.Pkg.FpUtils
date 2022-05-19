@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>FsharpToolbox.Pkg.FpUtils</RootNamespace>
     </PropertyGroup>
 
@@ -17,11 +17,6 @@
     <ItemGroup>
         <PackageReference Include="FSharpPlus" Version="1.2.0" />
         <PackageReference Include="FsToolkit.ErrorHandling" Version="2.5.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageReference Update="FSharp.Core" Version="5.0.1">
-            <ExcludeAssets>contentFiles</ExcludeAssets>
-        </PackageReference>
     </ItemGroup>
 
 </Project>
